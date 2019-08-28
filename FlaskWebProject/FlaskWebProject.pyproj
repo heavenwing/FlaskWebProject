@@ -33,14 +33,17 @@
     <Compile Include="FlaskWebProject\views.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include=".github\workflows\" />
     <Folder Include="FlaskWebProject\" />
     <Folder Include="FlaskWebProject\static\" />
     <Folder Include="FlaskWebProject\static\content\" />
     <Folder Include="FlaskWebProject\static\fonts\" />
     <Folder Include="FlaskWebProject\static\scripts\" />
     <Folder Include="FlaskWebProject\templates\" />
+    <Folder Include=".github\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".github\workflows\pythonpackage.yml" />
     <Content Include="requirements.txt" />
     <Content Include="FlaskWebProject\static\content\bootstrap.css" />
     <Content Include="FlaskWebProject\static\content\bootstrap.min.css" />
